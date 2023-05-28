@@ -63,3 +63,41 @@ form .display input {
 #operator {
     color: red;
 }
+
+@media screen and (max-width: 480px) {
+    .calculator input {
+        border: 1px solid black;
+        outline: none;
+        width: 35px;
+        height: 35px;
+        border-radius: 5px;
+        background: transparent;
+        cursor: pointer;
+        color: white;
+        font-size: 16px;
+        margin: 10px;
+    }
+
+        
+    form .display input {
+        text-align: right;
+        flex: 1;
+        font-size: 35px;
+        height: 60px;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 960px) {
+    .calculator input {
+        border: 1px solid black;
+        outline: none;
+        width: 45px;
+        height: 45px;
+        border-radius: 5px;
+        background: transparent;
+        cursor: pointer;
+        color: white;
+        font-size: 16px;
+        margin: 10px;
+    }
+}
